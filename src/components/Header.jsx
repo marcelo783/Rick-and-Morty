@@ -5,10 +5,10 @@ import FilterMenu from '../FilterMenu';
 
 const Header = ({ searchTerm, setSearchTerm, statusFilter, setStatusFilter, genderFilter, setGenderFilter }) => {
   return (
-    <header className=" 2x1:flex-col flex items-center  text-cente  justify-between fixed h-32  w-full bg-gray-800 text-white p-10    ">
-      <h2 className="text-2xl font-bold r">Personagens de Rick and Morty</h2>
+    <header className="flex flex-col items-center justify-between fixed top-0 left-0 w-full h-36 md:flex-row md:h-24 lg:h-32 bg-gray-800 text-white p-4 md:p-6 lg:p-8">
+      <h1 className="text-lg md:text-xl lg:text-2xl font-bold">Personagens de Rick and Morty</h1>
 
-      <div className="flex items-center">
+      <div className="flex items-center gap-7">
         <input
           type="text"
           placeholder="Pesquisar personagem"
